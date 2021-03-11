@@ -22,10 +22,6 @@ body {
     display: inline-block;
     font-size: 48px;
 }
-/*Sets colour for 3 charaters in company logo */
-.header h1 .seo {
-    color: #d9dcd6;
-}
 
 .header ul {
     list-style-type; none;
@@ -42,17 +38,17 @@ body {
     padding-top: 15px;
     margin-left: 442px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    position: initial;
+    font-size: 15px;
     
 }
 /*Sets list sytle of nav bar*/
 .navbar ul {
     list-style-type: none;
-    }
+        }
 /*Sets display stlye of nav bar list*/
 .navbar ul li {
-    display: inline-block;
+    display: inline;
+    justify-content: right;
     margin-left: 25px;
    
 }
@@ -73,30 +69,13 @@ p {
     background-size: cover;
     background-position: center;
 }
-.project-image 
-    .flex-inner {
-        width: 200px;
-        height: 200px;
-        resize: both;
-        overflow: auto;
-      }
-      
-      .flex-inner a {
-        display: flex;
-        width: 100%;
-        height: 100%;
-        border: solid 1px #123;
-      }
-      
-      img {
-        object-fit: cover;
-        width: 100%;
-      }
+
 
 /*sets formatting for section*/
 .content {
     width: 75%;
-    margin-left: 20px;
+    margin-left: 442px;
+    
 }
 
 /*Formats main articles*/
@@ -110,12 +89,26 @@ p {
 }
 /*Settings for images in main articles*/
 .content-article img {
-    max-height: 280px;
+        max-height: 280px;
+        max-width: 100%;
+        height: auto;
 }
-/*Settings for headings in main articles*/
+
+.content-image 
+    .flex-inner {
+        width: 200px;
+        height: 200px;
+        resize: both;
+        overflow: auto;
+      }
+               
+    img {
+        object-fit: cover;
+        width: 100%;
+      }
+      /*Settings for headings in main articles*/
 .content-article h2 {
-    position: relative;
-    top: -290px;
+    position: inherit;
     font-size: 36px;
 }
 /*Formatting for footer section*/
